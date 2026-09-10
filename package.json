@@ -23,7 +23,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
-    "joi": "^17.13.3",
+    "joi": "^17.13.6",
     "jsonwebtoken": "^9.0.2",
     "nodemailer": "^6.10.0",
     "path": "^0.12.7",
