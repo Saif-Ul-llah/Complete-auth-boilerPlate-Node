@@ -4,9 +4,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "build:schema": "node prisma/build-schema.js",
+    "start": "node init && node src/index.js",
+    "dev": "node init && nodemon src/index.js",
+    "build:schema": "node init && node prisma/build-schema.js",
     "prisma:generate": "npm run build:schema && prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "npx prisma studio"
